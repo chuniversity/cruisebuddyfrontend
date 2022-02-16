@@ -1,0 +1,46 @@
+.review-group-body{
+  background-color: #fff;
+  font-size: 100%;
+  color: #fff;
+  font-family: Lato, Arial, sans-serif;
+  padding: 20px;
+  width: 100%;
+  margin: 0px auto;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.review-group{
+  display: block;
+  box-sizing: inherit;
+  width: 100%;
+  margin: 0px auto;
+  padding: 1em 2em;
+  color: #000;
+  background-color: #fff;
+  border: .07em solid rgba(0,0,0,.5);
+  border-radius: .5em;
+}
+
+.comment-comment{
+width: 100%;
+  
+}
+
+.comment-comments{
+  color: #064064;
+  margin-top: 8px;
+  margin-left: -1px;
+}
+
+.reviews-header{
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.outermost{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+.homebar{
+  background: #064064;
+  margin: 0 auto;
+  margin-top: -37px;
+  max-width: 500px;
+  min-width: 500px;
+  height: 75px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #1a252f;
+  position: relative;
+  z-index: 5;
+  align-content: center;
+  background-color: #064064;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group-append{
+  margin-left:-30px;
+}
+
+.homebar ul{
+  width: 780px;
+  margin: 0 auto;
+  list-style: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.homebar ul li{
+  width: 160px;
+  float: left;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  margin: 0px auto;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.homebar ul li:last-child{
+  margin-right: 0;
+}
+
+.homebar ul li:hover{
+  color: #18bc9c;
+}
+
+.homebar ul li:hover .mega-menu{
+  color: #fff;
+}
+
+.homebar ul li .mega-menu p:hover{
+  color: #18bc9c;
+
+}
+
+.mega-menu{
+  position: absolute;
+  top: 65px;
+  left: 0;
+  margin: auto;
+  width: 500px;
+  background:  #064064;
+  transition: all 0.5s ease;
+  padding: 20px;
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.inner-mega-menu{
+  width: 24%;
+  float: left;
+  margin-right: 1%;
+}
+
+.inner-mega-menu:last-child{
+  margin-right: 0%;
+}
+
+.inner-mega-menu p{
+  padding: 10px 0;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+
+.homebar ul li:hover .mega-menu{
+  visibility: visible;
+  opacity: 1;
+
+}

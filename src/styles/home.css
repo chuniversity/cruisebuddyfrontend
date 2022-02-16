@@ -1,0 +1,69 @@
+.hero-div {
+  text-align: center;
+  color: white;
+  background-image: url("../images/heroImage4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 800px;
+  padding: 5rem;
+}
+.home-quote {
+  position: absolute;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 84px;
+  width: 655px;
+  color: white;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-quote {
+    width: 400px;
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-quote {
+    width: 300px;
+    font-size: 22px;
+  }
+}
+
+.container-fluid {
+  background-color: #e3f3f9;
+  height: 171px;
+  width: 1276px;
+  display: inline-flex;
+  align-content: flex-end;
+  margin-top: 60rem;
+}
+
+.home-input-group {
+  padding-top: 300px;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.home-deck {
+  padding-top: 40px;
+}
+
+.home-deals {
+  padding-top: 50px;
+}
+
+.home-deck-card > img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}

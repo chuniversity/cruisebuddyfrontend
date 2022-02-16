@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400i&display=swap");
+.navbar-brand {
+  height: 23px;
+  width: 111px;
+  color: #000000;
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 23px;
+}
+/* NAV BAR */
+.navbar {
+  position: fixed;
+  height: 60px;
+  padding: 14px;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  align-content: center;
+  background-color: #064064;
+}
+.nav-text-right {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+.navbar-r,
+.navbar-l {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.navbar-l {
+  width: 50px;
+  position: relative;
+}
+.navbar-r {
+  width: 200px;
+  display: grid;
+  justify-content: space-between;
+  position: relative;
+}
+.logo {
+  align-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  text-decoration: none;
+  color: white;
+}
+.logo:hover {
+  text-decoration: none;
+  color: #5dbcb2;
+}
+.logo:hover {
+  text-decoration: none;
+  color: #5dbcb2;
+}
+.navbar-icons {
+  text-decoration: none;
+  color: white;
+}
+.navbar-icons:hover {
+  text-decoration: none;
+  color: white;
+}
+/* End Nav Bar */
+/* Begin Footer */
+.rectangle {
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #064064;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cruisebuddy {
+  display: flex;
+  color: white;
+  font-family: "Raleway', sans-serif";
+  font-size: 20px;
+  padding: 30px;
+  margin-left: 150px;
+}
+.copyright {
+  text-align: center;
+  color: #6c94a9;
+  font-family: ".SF NS Display";
+  font-size: 14px;
+}
+.main-footer {
+  justify-content: space-around;
+  display: flex;
+  margin: 30px;
+  margin-left: 130px;
+  width: 600px;
+}
+/* End Footer */
+
+/* mobile */
+
+@media only screen and (max-width: 601px) {
+  .find-a-cruise {
+    display: none;
+  }
+  .log-in {
+    display: none;
+  }
+}

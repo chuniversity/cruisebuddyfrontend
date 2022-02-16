@@ -1,0 +1,66 @@
+.f-l {
+  margin-bottom: -10px;
+}
+
+.r-img {
+  background-image: url("../images/review-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 100px;
+  min-height: 1000px;
+}
+#container {
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 500px;
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 140, 255, 0.3),
+    rgba(0, 195, 255, 0.3)
+  );
+}
+.overal-rating {
+  display: block;
+  height: 50px;
+  text-align: center;
+  margin: 30px;
+}
+
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1.5em;
+  justify-content: center;
+}
+star-rating label .s-r label:hover,
+.s-r label:hover ~ label {
+  color: blue;
+}
+.star-rating label {
+  color: #ccc;
+  cursor: pointer;
+}
+.noHover:hover {
+  color: #ccc;
+}
+.active {
+  color: blue !important;
+}
+
+.thanks-button {
+  text-align: center;
+}
+
+/* .child--fa-upload{
+  align-self: flex-start;
+  font-size: 100px;
+}  */

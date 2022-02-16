@@ -1,0 +1,46 @@
+.review-group-body{
+  background-color: #F5F5F5;
+  font-size: 100%;
+  color: #fff;
+  font-family: Lato, Arial, sans-serif;
+  padding: 20px;
+  width: 100%;
+  margin: 0px auto;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  position: relative;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+}
+
+.card-text{
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.overflow{
+  overflow: hidden;
+}
+
+.card-img-top{
+  transform: scale(1);
+  transition: transform 0.5s
+}
+
+.card-img-top:hover{
+  transform: scale(1.2);
+}
